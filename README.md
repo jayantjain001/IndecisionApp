@@ -2,7 +2,7 @@
 First React Project
 
 
-Run these command in Project Directory:-
+Run these commands in Project Directory:-
 
 
 npm install
