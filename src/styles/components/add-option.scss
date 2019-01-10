@@ -1,0 +1,20 @@
+.addOption-error{
+color: aqua;
+font-style: italic;
+}
+.addOption{
+    display: flex;
+}
+
+.addOption__input{
+background: rgb(44, 46, 68);
+color: white;
+}
+
+
+@media(min-width:45rem)
+{
+    .addOption{
+        flex-direction:row;
+    }
+}

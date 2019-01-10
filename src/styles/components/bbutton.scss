@@ -1,0 +1,33 @@
+//bif button
+.bbutton{
+
+    background: rgb(143, 19, 143);
+    border:none;
+    border-bottom: .6rem solid darken($color: rgb(143, 19, 143), $amount: 15%);
+    color:white;
+    font-weight: bold;
+    font-size: 3.2rem;
+    margin-bottom: 4rem;
+    padding: 2.5rem;
+    width:100%;
+}
+.bbutton:disabled{
+    opacity: .5;
+}
+
+//small button
+.sbutton{
+    background: rgb(143, 19, 143);
+    border: none;
+    border-bottom: .3rem solid darken($color:rgb(143, 19, 143), $amount: 15%);
+    color: rgb(212, 188, 188);
+    padding:1.5rem;
+    font-weight: 600;
+ 
+}
+.sbutton--link{  //modifier
+background: none;
+border: none;
+color: rgb(173, 158, 158);
+padding: 0;
+}

@@ -1,0 +1,23 @@
+.widget{
+    background: rgb(48, 51, 85);
+    margin-bottom: 3.5rem;
+}
+
+.widget__msg{
+    text-align: center;
+    color: rgb(161, 149, 149);
+    border-bottom: 1px dotted lighten($color: rgb(139, 116, 116), $amount: 10%);
+    margin-bottom: 1rem;
+
+}
+.widget-header{
+    background:darken($color:rgb(44, 46, 68), $amount: 5%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+
+}
+.widget-header__title{
+    margin:0;
+}
